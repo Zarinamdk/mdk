@@ -8,6 +8,7 @@
         public void Demo()
         {
             // ход лабы
+                Console.WriteLine();
                 Task1();
                 Console.WriteLine();
                 Console.WriteLine("Задача 2");
@@ -16,8 +17,7 @@
                 Task2(a);
                 Console.WriteLine();
                 Task3();
-
-                Console.ReadKey();
+                Console.WriteLine();
 
             static void Task1()
             {
@@ -80,12 +80,12 @@
                 else
                 if (number1 % 5 == 0)
                 {
-                    Console.WriteLine("Fizz");
+                    Console.WriteLine("Fizz - число делится нацело на 5");
                 }
                 else
                 if (number1 % 3 == 0)
                 {
-                    Console.WriteLine("Buzz");
+                    Console.WriteLine("Buzz - число делится нацело на 3");
                 }
                 else
                 {
@@ -124,6 +124,7 @@
                 Console.WriteLine($"{number1} {act} {number2} = {result}");
             }
         }
+
         /// <summary>
         /// Метод возвращает описание заданий лабораторной работы
         /// </summary>
@@ -133,6 +134,7 @@
         {
             return "Задания лабы №2";
         }
+
         /// <summary>
         /// Метод возвращает номер лабораторной работы
         /// </summary>
@@ -141,6 +143,7 @@
         {
             return 2;
         }
+
         /// <summary>
         /// Метод возвращает заголовок лабораторной работы
         /// </summary>

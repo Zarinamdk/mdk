@@ -9,10 +9,11 @@ namespace MDK.Lab3
         public void Demo()
         {
             // ход лабы
+            Console.WriteLine();
             Task1();
             Console.WriteLine();
             Task2();
-            Console.ReadKey();
+            Console.WriteLine();
 
             static void Task1()
             {
@@ -85,6 +86,7 @@ namespace MDK.Lab3
                 }
             }
         }
+
         /// <summary>
         /// Метод возвращает описание заданий лабораторной работы
         /// </summary>
@@ -94,6 +96,7 @@ namespace MDK.Lab3
         {
             return "Задания лабы №3";
         }
+
         /// <summary>
         /// Метод возвращает номер лабораторной работы
         /// </summary>
@@ -102,6 +105,7 @@ namespace MDK.Lab3
         {
             return 3;
         }
+
         /// <summary>
         /// Метод возвращает заголовок лабораторной работы
         /// </summary>

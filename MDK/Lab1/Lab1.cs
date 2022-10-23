@@ -8,11 +8,15 @@
         public void Demo()
         {
             // ход лабы
+            Console.WriteLine();
             Task1();
+            Console.WriteLine();
             Task2();
+            Console.WriteLine();
             Task3();
+            Console.WriteLine();
             Task4();
-            Console.ReadKey();
+            Console.WriteLine();
 
             static void Task1()
             {
@@ -61,6 +65,7 @@
                 Console.WriteLine(k);
             }
         }
+
         /// <summary>
         /// Метод возвращает описание заданий лабораторной работы
         /// </summary>
@@ -70,6 +75,7 @@
         {
             return "Задания лабы №1";
         }
+
         /// <summary>
         /// Метод возвращает номер лабораторной работы
         /// </summary>
@@ -78,6 +84,7 @@
         {
             return 1;
         }
+
         /// <summary>
         /// Метод возвращает заголовок лабораторной работы
         /// </summary>

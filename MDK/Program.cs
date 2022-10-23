@@ -14,6 +14,7 @@ class Program
         labs.Add(new MDK.Lab4.Lab4());
         labs.Add(new MDK.Lab5.Lab5());
         labs.Add(new MDK.Lab6.Lab6());
+        labs.Add(new MDK.Lab7.Lab7());
         LabsInfo(labs);                 // выводим информацию о всех лабах
 
         bool running = true;
