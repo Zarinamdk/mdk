@@ -112,7 +112,7 @@ namespace MDK.Lab3
         /// <returns></returns>
         public string Title()
         {
-            return "Лабораторная №3. Тема: Массивы. Строкиы";
+            return "Лабораторная №3. Тема: Массивы. Строки";
         }
     }
 }
