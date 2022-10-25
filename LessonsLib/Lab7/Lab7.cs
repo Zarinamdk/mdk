@@ -111,9 +111,6 @@ namespace MDK.Lab7
             {
                 jsonFormatter.WriteObject(file, PKS);
                 jsonFormatter.WriteObject(file, BD);
-                jsonFormatter.WriteObject(file, GD);
-                jsonFormatter.WriteObject(file, ADT);
-                jsonFormatter.WriteObject(file, ODL);
             }
             using (var file = new FileStream("students.json", FileMode.OpenOrCreate))
             {
