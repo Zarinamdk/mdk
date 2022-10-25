@@ -106,8 +106,12 @@ namespace MDK.Lab7
 
             Console.WriteLine();
 
-            var jsonFormatter = new DataContractSerializer (typeof(Student));
-            using (var file= new FileStream("students.json", FileMode.OpenOrCreate))
+            var jsonFormatter = new DataContractSerializer (typeof(Group));
+            using (var file = new FileStream("students.json", FileMode.OpenOrCreate))
+            {
+                jsonFormatter.WriteObject(file, PKS);
+            }
+            using (var file = new FileStream("students.json", FileMode.OpenOrCreate))
             {
                 var newStudent = jsonFormatter.ReadObject(file) as List<Student>;
                 if (newStudent != null)
@@ -118,6 +122,7 @@ namespace MDK.Lab7
                     }
                 }
             }
+
         }
 
         /// <summary>

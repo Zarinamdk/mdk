@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Runtime.Serialization;
 
 namespace MDK.Lab7
 {
+    
     public class Lab7 : ILabs
     {
         /// <summary>

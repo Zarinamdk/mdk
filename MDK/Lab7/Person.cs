@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MDK.Lab7
+namespace MDK.Lab7 
 {
     [DataContract]
     public class Person

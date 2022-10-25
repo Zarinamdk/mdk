@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MDK.Lab7
 {
-    [DataContract]
+    [DataContract]  
     public class Group
     {
         [DataMember]
