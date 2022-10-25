@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MDK.Lab7
 {
-    [DataContract]
+    [Datacontract]
     public class Student:Person
     {        
         public Student(string name, string surname, int age, string gender, string myGroup, string vuz, string special)
@@ -17,7 +17,7 @@ namespace MDK.Lab7
             SurName = surname;
             Age = age;
             Gender = gender;
-            MyGroup = myGroup;
+            MyGroup = myGroup;  
             Vuz = vuz;
             Special = special;
         }
